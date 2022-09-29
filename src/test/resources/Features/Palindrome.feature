@@ -7,7 +7,7 @@ Feature: Check text
 
     Examples: 
     | input 						| isPalindrome  					|
-    | "kasur rusak" 		| "Palindrome" 				|
+    | "kasur rusak" 		| "Palindrome" 						|
     | "Kasur gak rusak" | "Not Palindrome"    		|
-    | "kodok" 					| "Palindrome"		    |
+    | "kodok" 					| "Palindrome"		    		|
     | "Kodok mati" 			| "Not Palindrome"		    |
