@@ -1,0 +1,249 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-29T06:08:43.389Z",
+        "line": 10,
+        "name": "Validate the text",
+        "description": "",
+        "id": "check-text;validate-the-text;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 202000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "input text \"kasur rusak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kasur rusak\"",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.Palindrome.inputText(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "check the text",
+            "match": {
+              "location": "steps.Palindrome.checkText()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 936000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the text is \"Palindrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Palindrome\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.Palindrome.result(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-29T06:08:43.394Z",
+        "line": 11,
+        "name": "Validate the text",
+        "description": "",
+        "id": "check-text;validate-the-text;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "input text \"Kasur gak rusak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kasur gak rusak\"",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.Palindrome.inputText(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "check the text",
+            "match": {
+              "location": "steps.Palindrome.checkText()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the text is \"Not Palindrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Not Palindrome\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.Palindrome.result(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-29T06:08:43.397Z",
+        "line": 12,
+        "name": "Validate the text",
+        "description": "",
+        "id": "check-text;validate-the-text;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 37000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "input text \"kodok\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kodok\"",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.Palindrome.inputText(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "check the text",
+            "match": {
+              "location": "steps.Palindrome.checkText()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the text is \"Palindrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Palindrome\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.Palindrome.result(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-29T06:08:43.399Z",
+        "line": 13,
+        "name": "Validate the text",
+        "description": "",
+        "id": "check-text;validate-the-text;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "input text \"Kodok mati\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kodok mati\"",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.Palindrome.inputText(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "check the text",
+            "match": {
+              "location": "steps.Palindrome.checkText()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the text is \"Not Palindrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Not Palindrome\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.Palindrome.result(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check text",
+    "description": "",
+    "id": "check-text",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Palindrome.feature",
+    "tags": []
+  }
+]
